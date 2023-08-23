@@ -1,4 +1,4 @@
-# repositorio de sistemas web //Titulo 1
-## 80640 //Titulo 2
+# repositorio de sistemas web
+## 80640
 
-- Eduardo Lozada Anastacio //punto
+- Eduardo Lozada Anastacio
