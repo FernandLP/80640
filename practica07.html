@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica07</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        form{
+            box-shadow: 10px 20px 20px;
+            width: 300px;
+            /*margin: 200px;*/
+            margin: 0 auto;
+            border: 1px solid lightgray;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        label{
+            display: block;
+        }
+        input[type="submit"]{
+            background-color: blue;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <h1>
+        formulario
+   </h1> 
+   <form action=" " method="post" id="formulario">
+        <fieldset>
+            <legend>Inf personal</legend>
+            <label for="01">Nombre</label>
+            <input type="text" id="user" name="user">
+            <label for="01">Correo</label>
+            <input type="text" id="email" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Inf direccion</legend>
+            <label for="01">Direccion</label>
+            <input type="text" id="address" name="address">
+            <label for="01">Ciudad</label>
+            <input type="text" id="town" name="town">
+        </fieldset>
+        <input type="submit" value="Continuar" id="submit">
+   </form>
+
+   <script>
+        const formulario = document.getElementById("formulario")
+        const mifieldse = (legend, txt1, txt2) => {
+            return `
+
+            `
+        }
+   </script>
+</body>
+</html>
