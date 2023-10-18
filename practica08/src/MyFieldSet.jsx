@@ -1,7 +1,9 @@
+import MyFieldSet from "./MyFieldSet"
+
 function MyFieldSet(props){
     const {titulo, txt1, txt2} = props
     return (
-        <>
+        <
             <fieldSet>
                 <legend>{titulo}</legend>
                 <label htmlFor={txt1}>{txt1}</label>
